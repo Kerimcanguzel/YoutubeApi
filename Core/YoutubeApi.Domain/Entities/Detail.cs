@@ -22,5 +22,8 @@ namespace YoutubeApi.Domain.Entities
         public required string Description { get; set; }
         public required int CategoryId { get; set; }
         public  Category Category { get; set; }
+        public int Id { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }
